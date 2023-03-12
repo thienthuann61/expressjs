@@ -1,0 +1,34 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thienthuann61/expressjs.git"
+  },
+  "keywords": [
+    "expressjs",
+    "express",
+    "tutorial"
+  ],
+  "author": "thienthuann61",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thienthuann61/expressjs/issues"
+  },
+  "homepage": "https://github.com/thienthuann61/expressjs#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.2",
+    "sass": "^1.59.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
